@@ -1,0 +1,21 @@
+{
+  "name": "hubot-command-blacklist",
+  "version": "1.0.0",
+  "description": "Where I eventually move the command blacklist stuff from https://github.com/rit-sse/hubot/pull/3 into it's own repo.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristenmills/hubot-command-blacklist"
+  },
+  "keywords": [
+    "hubot",
+    "command-blacklist",
+    "middleware"
+  ],
+  "author": "Kristen Mills <kristen@kristen-mills.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kristenmills/hubot-command-blacklist/issues"
+  },
+  "homepage": "https://github.com/kristenmills/hubot-command-blacklist"
+}
