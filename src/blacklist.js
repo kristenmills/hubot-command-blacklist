@@ -2,7 +2,7 @@
 //   Sets the permissions for commands in a room
 //
 // Configuration:
-//   HUBOT_DEFAULT_COMMANDS
+//   HUBOT_DEFAULT_COMMANDS - comma seperated list of command ids that can't be disabled.
 //
 // Commands:
 //   hubot enable/disable <commandId> - Enable/disable this command in the current room
@@ -10,7 +10,7 @@
 //   hubot list commands - Displays all commands for a room sorted into enabled and disabled
 //
 // Author:
-//   kristenmills
+//   Kristen Mills <kristen@kristen-mills.com>
 
 
 module.exports = function(robot) {
