@@ -1,7 +1,8 @@
 {
   "name": "hubot-command-blacklist",
-  "version": "1.0.0",
-  "description": "Where I eventually move the command blacklist stuff from https://github.com/rit-sse/hubot/pull/3 into it's own repo.",
+  "version": "1.0.1",
+  "description": "Middleware and commands for blacklisting specific commands in certain rooms or
+channels",
   "main": "index.js",
   "repository": {
     "type": "git",
