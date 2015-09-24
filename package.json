@@ -1,8 +1,7 @@
 {
   "name": "hubot-command-blacklist",
   "version": "1.0.1",
-  "description": "Middleware and commands for blacklisting specific commands in certain rooms or
-channels",
+  "description": "Middleware and commands for blacklisting specific commands in certain rooms or channels",
   "main": "index.js",
   "repository": {
     "type": "git",
