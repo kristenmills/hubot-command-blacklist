@@ -26,7 +26,7 @@ module.exports = function(robot) {
     var room = msg.message.room;
     var user = msg.envelope.user;
 
-    if(!process.env.HUBOT_AUTH || // if not using hubot auth anyone can do this
+    if(!process.env.HUBOT_AUTH_ADMIN || // if not using hubot auth anyone can do this
       robot.auth.hasRole(user, room + '-admin') ||
       robot.auth.isAdmin(user)
     ) {
@@ -64,7 +64,7 @@ module.exports = function(robot) {
     var room = msg.message.room;
     var user = msg.envelope.user;
 
-    if(!process.env.HUBOT_AUTH || // if not using hubot auth anyone can do this
+    if(!process.env.HUBOT_AUTH_ADMIN || // if not using hubot auth anyone can do this
       robot.auth.hasRole(user, room + '-admin') ||
       robot.auth.isAdmin(user)
     ) {
