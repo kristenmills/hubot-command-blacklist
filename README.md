@@ -19,7 +19,7 @@ Then add **hubot-command-blacklist** to your `external-scripts.json`:
 
 ## Configuration
 
-`HUBOT_DEFAULT_COMMANDS` - comma seperated list of command ids that can't be disabled.
+`HUBOT_DEFAULT_COMMANDS` - comma separated list of command ids that can't be disabled.
 
 
 ## Commands
