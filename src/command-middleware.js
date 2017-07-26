@@ -15,7 +15,7 @@ module.exports = function (robot) {
           || (robot.auth && (robot.auth.hasRole(user, room + '-admin') 
           || robot.auth.isAdmin(user))) ;
 
-      if (blacklist.indexOf(id) !== -1 && !(override && userHasPerm))) {
+      if (blacklist.indexOf(id) !== -1 && !(override && userHasPerm)) {
         if (respondInChannel) {
           context.response.reply("Sorry " + user.name + ", you aren't allowed to run that command in " + room);
         }
